@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://anhdep123.com/39-hinh-anh-la-cay-ve-mua-thu-tuyet-dep/anh-mua-thu/);
+    background-size: cover;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    height: 560px;
+    padding: 20px;
+    width: 310px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+    background-image: url(https://anhdep123.com/39-hinh-anh-la-cay-ve-mua-thu-tuyet-dep/anh-mua-thu/);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+.head {
+    width: 100%;
+}
+.head input {
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 0 15px 0 15px;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    margin: 10px 0 40px 0;
+    width: 100%;
+    padding: 0px 20px;
+    box-shadow: 4px 4px  rgba(0, 0, 0, 0.7);
+    opacity: 0.8;
+    transition: 0.5s;
+}
+input:focus {
+    border-radius: 15px 0 15px 0 ;
+}
+.body {
+    text-align: center;
+    height: 310px;
+    width: 100%;
+    color: rgb(180, 178, 40);
+    text-shadow: 2px 2px #181717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.weather,.loca{
+    font-size: 3rem;
+    line-height: 40px;
+}
+.time {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px #181717;
+    margin: 6px 0px;
+
+}
+.tem {
+    background-color:rgba(255, 255, 255, 0.5) ;
+    border-radius: 10px;
+    box-shadow: 4px 4px  rgba(0, 0, 0, 0.7);
+    font-size: 70px;
+    line-height: 50px;
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+    width: 235px;
+    line-height: 140px;
+
+}
+.footer {
+    color: #fff;
+    width: 100%;
+    height: 170px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 2px 2px  rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    text-align: center;
+}
